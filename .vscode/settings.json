@@ -1,0 +1,10 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": [
+        {
+            "name": "venv_pytorch_gpu_0",
+            "path": "C://Users//pkmpp//OneDrive//Documents//python//env//venv_pytorch_gpu_0//Scripts//python.exe"
+        }
+    ]
+}
