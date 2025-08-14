@@ -23,6 +23,7 @@ tickerDf = tickerData.history(period="1y")
 # tickerDf = tickerData.history(start = '2010-1-1', end = '2025-8-13')
 
 
-
+st.subheader("Closing Price vs Volume Chart")
 st.line_chart(tickerDf["Close"])  # closing price
-st.line_chart(tickerDf["Volume"]) # number of shares traded
+st.subheader("Volume Chart")
+st.line_chart(tickerDf["Volume"])  # number of shares traded
