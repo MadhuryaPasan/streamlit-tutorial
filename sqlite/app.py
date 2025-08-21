@@ -4,7 +4,6 @@ from sqlalchemy import text
 
 # connect to the sqlite database
 # streamlit will automatically create the connection details from secrets.toml
-
 conn = st.connection("my_database", type="sql")
 
 # create a table and insert some data (this will only run once)
